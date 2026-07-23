@@ -1,0 +1,20 @@
+﻿# Базовая конфигурация Hermes для профиля robur_copilot.
+# Модель и провайдер задаются в окружении установщика.
+
+tools:
+  web_search: true
+  code_execution: true
+
+skills:
+  write_approval: true
+
+compression:
+  enabled: true
+  threshold: 0.3
+  target_ratio: 0.2
+  protect_last_n: 15
+
+mcp_servers:
+  robur:
+    url: "http://127.0.0.1:8000/mcp/"
+    enabled: true

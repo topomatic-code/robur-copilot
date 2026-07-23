@@ -1,0 +1,12 @@
+name: robur_copilot
+version: 0.1.0
+description: "Ассистент для работы с Cad-платформой Topomatic Robur"
+hermes_requires: ">=0.12.0"
+author: "Topomatic"
+license: "MIT"
+
+distribution_owned:
+  - SOUL.md
+  - config.yaml
+  - skills/
+  - distribution.yaml
