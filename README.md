@@ -88,3 +88,11 @@ robur_copilot/
 - [Skills](https://hermes-agent.nousresearch.com/docs/user-guide/features/skills) - пользовательская документация по скиллам Hermes и их назначению.
 - [Creating skills](https://hermes-agent.nousresearch.com/docs/developer-guide/creating-skills) - руководство разработчика по созданию и оформлению скиллов.
 - [Use SOUL with Hermes](https://hermes-agent.nousresearch.com/docs/guides/use-soul-with-hermes) - руководство по использованию SOUL для задания роли, поведения и принципов работы агента.
+
+## Лицензия
+
+Проект распространяется по лицензии MIT.
+
+Разрешено свободно использовать, копировать, изменять, распространять и включать код проекта в другие продукты, включая коммерческие. При распространении необходимо сохранять уведомление об авторском праве и текст лицензии.
+
+Проект поставляется «как есть», без гарантий. Полные условия приведены в файле [LICENSE](LICENSE).
