@@ -15,7 +15,7 @@ Robur Copilot - профиль Hermes-агента, выступающий в к
 3. В установленном Hermes Agent откройте терминал (правый нижний угол) и выполните:
 
 ```bash
-hermes profile install https://git.topomatic.ru/Ivan/robur_copilot --alias
+hermes profile install https://github.com/topomatic-code/robur-copilot --alias
 ```
 
 Подтвердите установку в терминале [Y]. Закройте Hermes Agent.
