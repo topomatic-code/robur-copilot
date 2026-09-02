@@ -38,6 +38,8 @@ robur_copilot/
 ├── config.yaml
 ├── skills/
 │   └── robur/
+│       ├── project-assistant/
+│       │   └── SKILL.md
 │       └── tlc-assistant/
 │           ├── SKILL.md
 │           └── docs/
@@ -57,6 +59,7 @@ robur_copilot/
 
 ## Скиллы
 
+- `project-assistant` - скилл для безопасной работы со структурой активного проекта, моделями, вкладками и видами Robur.
 - `tlc-assistant` - основной скилл для консультаций, обучения и написания Tlc-скриптов.
 
 ## Файлы дистрибутива
