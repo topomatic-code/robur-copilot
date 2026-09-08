@@ -128,6 +128,20 @@ robur_copilot/
 - [Creating skills](https://hermes-agent.nousresearch.com/docs/developer-guide/creating-skills) - руководство разработчика по созданию и оформлению скиллов.
 - [Use SOUL with Hermes](https://hermes-agent.nousresearch.com/docs/guides/use-soul-with-hermes) - руководство по использованию SOUL для задания роли, поведения и принципов работы агента.
 
+## Выпуск релизной версии
+
+Каждая релизная версия профиля должна иметь Git-метку в формате `vMAJOR.MINOR.PATCH`, соответствующую полю `version` в `distribution.yaml`: например, для `version: 0.2.0` создаётся метка `v0.2.0`.
+
+Порядок выпуска:
+
+1. Обновите `version` в `distribution.yaml` и создайте коммит с готовыми изменениями профиля.
+2. Поставьте на этот коммит метку с соответствующей версией.
+3. Опубликуйте изменения в основной ветке репозитория и отправьте созданную метку на сервер.
+
+Это обязательное правило проекта основано на рекомендации официальной документации Hermes: [Step 5 — Tag versioned releases](https://hermes-agent.nousresearch.com/docs/user-guide/profile-distributions#step-5--tag-versioned-releases).
+
+Метка фиксирует релиз в истории Git. Команда `hermes profile update` загружает текущее состояние ветки репозитория по умолчанию, а не выбирает последний тег, поэтому сама по себе метка не ограничивает обновления только релизными версиями.
+
 ## Лицензия
 
 Проект распространяется по лицензии MIT.
