@@ -54,7 +54,7 @@ metadata:
 Инструменты домена `[ПРОЕКТ]`:
 
 - `project_activate_model` — активировать модель по `uri` из актуального дерева проекта, открыв ее при необходимости;
-- `project_get_active_windows` — получить `windowCount` и список `windows`. У каждого окна есть `Name`, `UID`, `Dynamic`, `HasCadView` и `HasDrawing`;
+- `project_get_active_windows` — получить `windowCount` и список `windows`. У каждого окна есть `Name`, `UID`, `Dynamic`, `HasCadView`, `HasDrawing` и `IsQuickDwg`. Флаг `IsQuickDwg = true` означает, что окно (вкладка) содержит быстрый чертеж;
 - `activate_window` — активировать вкладку по параметру `uid`, взятому из ее `UID`;
 - `close_window` — закрыть вкладку по `uid`. Закрывать можно только динамические вкладки (`Dynamic = true`).
 
