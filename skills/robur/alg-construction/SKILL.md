@@ -2,8 +2,6 @@
 name: alg-construction
 description: Анализ конструкций поперечников автодороги в Robur.
 version: 0.1.0
-author: Topomatic
-license: MIT
 platforms: [windows, linux, macos]
 metadata:
   hermes:
